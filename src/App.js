@@ -48,7 +48,7 @@ class App extends Component {
         clickedimages: []
       });
     } else {
-       // alert player loss
+      // alert player loss
       this.setState({
         score: 0,
         clickedimages: []
@@ -90,7 +90,7 @@ class App extends Component {
           className="alert alert-success"
           style={{ opacity: this.state.showSuccess }}
         >
-          Brilliant, you haven't clicked on duplicates!
+          Nice, you didn't click on any duplicates!
           </div>
         <Scoreboard
           title="Cats Clicky Game"
